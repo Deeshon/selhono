@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+
+.bg-image {
+  background-image: url("./assets/footer-image.png"); /* Replace 'path/to/your/image.jpg' with the path to your image */
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  width: 100%; /* Adjust as needed */
+  height: 100%; /* Adjust as needed */
+}
+
+html,
+body {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+}
+
+.jost-regular {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+.jost-bold {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.plans-bg-image {
+  background-image: url("./assets/plans1.png"); /* Replace 'path/to/your/image.jpg' with the path to your image */
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  width: 1280px; /* Adjust as needed */
+  height: 500px; /* Adjust as needed */
+}
+
+.main2-bg-image {
+  background-image: url("./assets/main2.jpeg"); /* Replace 'path/to/your/image.jpg' with the path to your image */
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  width: 100%; /* Adjust as needed */
+  height: 700px; /* Adjust as needed */
+  border-top-right-radius: 400px;
+  z-index: 20;
+}
+
+.main3-bg-image {
+  z-index: 10;
+  background-image: url("./assets/main3.jpeg"); /* Replace 'path/to/your/image.jpg' with the path to your image */
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  width: 40%; /* Adjust as needed */
+  height: 700px; /* Adjust as needed */
+}
+
+.people-bg-image {
+  background-image: url("./assets/people1.png");
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+}
+
+.logo1-bg-image {
+  background-image: url("./assets/logo1.png");
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  width: 300px; /* Adjust as needed */
+  height: 75px; /* Adjust as needed */
+}
+
+.logo2-bg-image {
+  background-image: url("./assets/logo2.png");
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  width: 364px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+}
+
+.logo3-bg-image {
+  background-image: url("./assets/logo3.png");
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  width: 362px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+}
+
+.logo4-bg-image {
+  background-image: url("./assets/logo4.png");
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  width: 90px; /* Adjust as needed */
+  height: 90px; /* Adjust as needed */
+}
+
+.project1-bg-image {
+  background-image: url("./assets/project1.jpeg");
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  width: 547px; /* Adjust as needed */
+  height: 548px; /* Adjust as needed */
+  border-top-right-radius: 270px;
+}
+
+.project2-bg-image {
+  background-image: url("./assets/project2.jpeg");
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  width: 547px; /* Adjust as needed */
+  height: 548px; /* Adjust as needed */
+  border-top-right-radius: 270px;
+}
+
+.project3-bg-image {
+  background-image: url("./assets/project3.jpeg");
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  width: 547px; /* Adjust as needed */
+  height: 548px; /* Adjust as needed */
+  border-top-right-radius: 270px;
+}
+
+.project4-bg-image {
+  background-image: url("./assets/project4.jpeg");
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  width: 547px; /* Adjust as needed */
+  height: 548px; /* Adjust as needed */
+  border-top-right-radius: 270px;
+}
+
+.article1-bg-image {
+    background-image: url("./assets/article1.png");
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    width: 100%; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+  }
+
+  .article2-bg-image {
+    background-image: url("./assets/article2.png");
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    width: 100%; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+  }
+
+  .article3-bg-image {
+    background-image: url("./assets/article3.png");
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    width: 100%; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+  }
+
+  .article-card, .article-card-button {
+    transition: background-color 0.3s ease;
+  }
+
+  .article-card:hover {
+    background-color: #F4F0EC;
+    cursor: pointer;
+  }
+
+  .article-card:hover .article-card-button {
+    background-color: #C76904;
+  }
